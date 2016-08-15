@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta http-equiv="cleartype" content="on">
+        <link rel="stylesheet" href="hlidarsida.css">
+        <link rel="stylesheet" href="readable.css">
+        <link rel="stylesheet" href="menuanimation.css">
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display|Arvo&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <title>Horwheel Component</title>
+
+    </head>
+    <body class="push">
+
+        <!-- Navigation -->
+    <div class="header">
+        <div id="headercontent">
+            Hispursmeyjar
+            </div>
+
+
+<!-- hamburger menu icon -->
+    <a href="#menu" class="menu-link">  
+    <div id="nav-icon1" >
+        <span></span>
+        <span></span>
+        <span></span>
+    </div></label></a>  
+
+        <nav id="menu" class="panel" role="navigation">
+
+            <ul>
+            </ul>
+        </nav>
+
+    </div>
+    <!-- end navigation -->
+
+
+        <div id="wrapper" class="wrapper-scroll">
+            <div class="content">
+
+                <div class="section">                
+                <h1>Skaftfellingur og verslun<br/></h1>
+                <h2/>við Skaftárós á Meðallandsfjörum</h2>
+                    <h4>Skaftfellingar þurftu um margar aldir að fara í langar og erfiðar ferðir til að komast í verslun. Lengst af
+
+                    fóru þeir til Eyrarbakka eða austur á Papós til að sækja vörur. Árið 1884 kom fyrsta vörusendingin til
+
+                    Víkur og hófst þar með verslun þar. Upp úr aldamótunum 1900 fóru menn að velta fyrir sér
+
+                    möguleikum á að fá vörur fluttar með skipi að Skaftárós.
+
+                    Ekki er kunnugt um að menn hafi reynt að róa að staðaldri til fiskjar frá Skaftárósi fyrir aldamótin
+
+                    1800 en eftir aldamótin eru kunn nöfn manna sem stunduðu sjóróðra frá Skaftárós. Voru þessir menn
+
+                    frá Hunkubökkum, Syðri-Steinsmýri, Eystra-Hrauni og Seglbúðum. Stunduðu þeir þessa iðju langt
+
+                    fram eftir nítjándu öldinni. 1 Það var því alls ekkert fráleitt að hefja siglingar með vörur að Skaftárósi
+
+                    og 1908 var Skaftárós löggiltur verslunarstaður.</h4>
+                                    </div>
+                <div class="section">
+                    <h4>Samþykkt var á sýslufundi 1916 að safna fé til kaupa á báti til að flytja vörur frá Reykjavík að Vík,
+
+                    Skaftárósi, Hvalsíki og Ingólfshöfða. Lögðu margir hönd á plóginn, voru jafnvel dæmi um að
+
+                    unglingar leggðu af því sparifé sínu til að kaupa bát. Var safnað í Mýrdal, Skaftárhreppi og í Öræfum.
+
+                    Lagði Kaupfélag Skaftfellinga 500 kr, til kaupanna en gildir bændur á bilinu 100-700 kr.</h4>
+
+                </div>
+                <div class="section">
+                    <h4>Samþykkt var á sýslufundi 1916 að safna fé til kaupa á báti til að flytja vörur frá Reykjavík að Vík,
+
+                    Skaftárósi, Hvalsíki og Ingólfshöfða. Lögðu margir hönd á plóginn, voru jafnvel dæmi um að
+
+                    unglingar leggðu af því sparifé sínu til að kaupa bát. Var safnað í Mýrdal, Skaftárhreppi og í Öræfum.
+
+                    Lagði Kaupfélag Skaftfellinga 500 kr, til kaupanna en gildir bændur á bilinu 100-700 kr.</h4>
+                </div>
+                <div class="section">
+mynd
+                </div>
+                <div class="section">
+                    <h4>Samþykkt var á sýslufundi 1916 að safna fé til kaupa á báti til að flytja vörur frá Reykjavík að Vík,
+
+                    Skaftárósi, Hvalsíki og Ingólfshöfða. Lögðu margir hönd á plóginn, voru jafnvel dæmi um að
+
+                    unglingar leggðu af því sparifé sínu til að kaupa bát. Var safnað í Mýrdal, Skaftárhreppi og í Öræfum.
+
+                    Lagði Kaupfélag Skaftfellinga 500 kr, til kaupanna en gildir bændur á bilinu 100-700 kr.</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript" src="readable/readable-vanilla.js"></script>
+                <script>
+            var horwheel = require('horwheel'),
+                view = document.getElementById('wrapper');
+
+            horwheel(view);
+        </script>
+            <script>
+
+        // Set options
+        var options = {
+            offset: '#showHere',
+            offsetSide: 'top',
+            classes: {
+                clone:   'banner--clone',
+                stick:   'banner--stick',
+                unstick: 'banner--unstick'
+            }
+        };
+
+        // Initialise with options
+        var banner = new Headhesive('.banner', options);
+
+        // Headhesive destroy
+        // banner.destroy();
+    </script>
+    </body>
+</html>

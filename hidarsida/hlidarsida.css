@@ -1,0 +1,88 @@
+<style>
+
+            .wrapper-scroll {
+                -webkit-overflow-scrolling: touch;
+                overflow-scrolling: touch;
+                overflow: auto;
+                position: absolute;
+                top: 3em;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .content {
+                width: 100%;
+                width: -moz-max-content;
+                width: -webkit-max-content;
+                width: -o-max-content;
+                width: -ms-max-content;
+                width: max-content;
+            }
+
+
+            h1 {
+                font-family: 'Lucida Consoleß', serif;
+                font-size: 2em;
+                margin-left: 2em 0;
+            }
+
+            h2 {
+                font-family: 'Lucida Consoleß', serif;
+                font-size: 1.5em;
+                margin-left: 3em 0;
+            }
+
+            h4 {
+                font-family: 'Playfair Display', serif;
+                font-size: 1em;
+                margin-top: 10em;
+                margin: 2em;
+            }
+
+            .menu {
+                position: fixed;
+                opacity: 0.60;
+                height: 40px;
+                width: 40px;
+                padding: 5px;
+            }
+
+            .section {
+                float: left;
+                overflow: hidden;
+                padding-top: 60px;
+                padding-left: 40px;
+                width: 550px;
+                margin: 0 5.2em 0 0;
+                padding: 5;
+            }
+
+            .article {
+                float: left;
+                width: 15em;
+                height: 12em;
+                margin: .2em;
+                background-color: #C40C20;
+            }
+
+            .section:nth-child(1) .article {
+                background-color: #C40C20;
+            }
+
+            .section:nth-child(2) .article {
+                background-color: #F9A02E;
+            }
+
+            .section:nth-child(3) .article {
+                background-color: #FEF20A;
+            }
+            .section:nth-child(4) .article {
+                background-color: #35A338;
+            }
+            .section:nth-child(5) .article {
+                background-color: #139CEB;
+            }
+
+
+        </style>

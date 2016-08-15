@@ -1,0 +1,87 @@
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.col{
+  margin-left: 0%;
+}
+
+.col:first-child {
+  margin-left:0;
+}
+
+.span1{
+  width: 7.875%;
+  
+}
+.span2{
+  width: 16.25%;
+  
+}
+.span3{
+  width: 24.625%;
+  
+}
+.span4{
+  width: 33%;
+  
+}
+.span5{
+  width: 41.375%;
+  
+}
+.span6{
+  width: 49.75%;
+  
+}
+.span7{
+  width: 58.125%;
+  
+}
+.span8{
+  width: 66.5%;
+  
+}
+.span9{
+  width: 74.875%;
+  
+}
+.span10{
+  width: 83.25%;
+  
+}
+.span11{
+  width: 91.625%;
+  
+}
+.span12{
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+ /* Add your styles for devices with a maximum width of 480 */
+}
+
+
+/* Micro Clearfix */
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    *zoom:1;
+}
+
+
